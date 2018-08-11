@@ -18,7 +18,11 @@ class PeopleController < ApplicationController
 
   def person_params
     params.require(:person).permit(
+<<<<<<< HEAD
     :name,
+=======
+    :name, 
+>>>>>>> c5f38c499b5cc750faf7730dbb0a8abaa1fb55f6
     addresses_attributes: [
       :street_address_1,
       :street_address_2,
